@@ -25,28 +25,10 @@ This script will set up the necessary tools and environment required for the cou
 
 ## Table of Contents
 
-### Day 1
-- Introduction to RISCV ISA and GNU Compiler Toolchain
-- Introduction to Basic Keywords
-  - Introduction
-  - Transitioning from Applications to Hardware
-- Detailed Course Content Overview
-- Labwork for RISCV Toolchain
-  - C Program Example
-  - Compiling with RISCV GCC Compiler and Disassembly
-  - Spike Simulation and Debugging
-  - Understanding Integer Number Representation
-
-### Day 2
-- Understanding ABI and Basic Verification Flow
-  - Application Binary Interface (ABI)
-- Memory Allocation for Double Words
-- Exploring Load, Add, and Store Instructions
-- Introduction to the 32 Registers and Their ABI Names
-- Labwork using ABI Function Calls
-  - Algorithm Implementation in C Program using ASM
-  - Reviewing ASM Function Calls
-  - Simulating C Program using Function Calls
+  - [Day 1](./DAY1#day-1-introduction-to-riscv-isa-and-gnu-compiler-toolchain)
+  - [Day 2](./DAY2#day-2-introduction-to-abi-and-basic-verification-flow)
+  - [Day 3](./DAY3#day-3-introduction-to-verilog-rtl-design-and-synthesis)
+  - [Day 4](./DAY4#day-4-introduction-to-timing-labs)
 
 ## Instruction Set Architecture (ISA)
 The Instruction Set Architecture (ISA) defines how a computer's hardware and software interact. The RISC-V ISA, an open-source ISA, is a key focus in this course. RISC-V architectures provide a streamlined instruction set that can lead to faster execution.
