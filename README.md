@@ -1,67 +1,53 @@
 # VLSI Physical Design for ASICs
 
-## Introduction
-Welcome to the **VLSI Physical Design for ASICs** course. This program delves into the meticulous process of translating logical design descriptions (RTL) into tangible physical layouts suitable for ASIC fabrication. Throughout this course, we'll delve into architectural design, layout verification, and other crucial aspects that underpin the creation of cutting-edge integrated circuits.
-
-## Course Overview
-The course is designed to equip you with a deep understanding of VLSI physical design principles and tools. By the end of this course, you will have gained skills in the following areas:
-
-- Architectural Design
-- RTL Design / Behavioral Modeling
-- Floorplanning
-- Placement
-- Clock Tree Synthesis
-- Routing
-
-## Installation
-To get started with the course materials, follow these steps:
-
-1. Download the [installation script](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh).
-2. Open your terminal.
-3. Navigate to the directory where you downloaded the script using the `cd` command.
-4. Run the script by entering `./run.sh`.
-
-This script will set up the necessary tools and environment required for the course.
+Welcome to the VLSI Physical Design for ASICs course repository offered by PES University and taught by Kunal Ghosh. This repository contains files and resources to guide you through the process of ASIC design from scratch, focusing on the RISC-V architecture. You'll learn how to translate high-level languages into physical layout designs.
 
 ## Table of Contents
-
+- [Introduction](#introduction)
+- [Flow Overview](#flow-overview)
+- [Tools and Prerequisites](#tools-and-prerequisites)
+- [Course Structure](#course-structure)
   - [Day 1](./DAY_1#day-1-introduction-to-riscv-isa-and-gnu-compiler-toolchain)
   - [Day 2](./DAY_2#day-2-introduction-to-abi-and-basic-verification-flow)
   - [Day 3](./DAY_3#day-3-introduction-to-verilog-rtl-design-and-synthesis)
   - [Day 4](./DAY_4#day-4-introduction-to-timing-labs)
 
-## Instruction Set Architecture (ISA)
-The Instruction Set Architecture (ISA) defines how a computer's hardware and software interact. The RISC-V ISA, an open-source ISA, is a key focus in this course. RISC-V architectures provide a streamlined instruction set that can lead to faster execution.
+## <a name="introduction"></a>Introduction
+This repository provides essential materials to guide you through the ASIC design flow, starting from the fundamentals and leading to physical layout design. You will gain a comprehensive understanding of the entire process.
 
-## Transitioning from Applications to Hardware
-Learn how various layers of computing, including applications, system software, operating systems, compilers, and assemblers, work together to bridge the gap between user tasks and hardware operations.
+## <a name="flow-overview"></a>Flow Overview
+1. **HLL (High-Level Language)**: Understand the basics of high-level programming languages such as C and C++.
+2. **ALP (Assembly Level Program)**: Dive into assembly language programming and its importance in CPU architecture.
+3. **HDL (Hardware Description Language)**: Explore hardware description languages like Verilog, System Verilog, and VHDL for designing digital circuits.
+4. **GDS (Graphic Data System)**: Learn about layout design using tools like Klayout and Magic.
 
-## Detailed Course Content Overview
-Explore the content covered in this course, including topics like Pseudo Instructions, Base Integer Instructions, Multiply Extension Instructions, Floating Point Extensions, Application Binary Interface (ABI) rules, memory allocation, load/store instructions, and more.
+## <a name="tools-and-prerequisites"></a>Tools and Prerequisites
+Before you begin, make sure you have the necessary tools and prerequisites installed on your system. You can follow the provided installation script to set up the required environment. The installation script is provided in the [run_ubuntu.sh](./run_ubuntu.sh) file.
 
-## Labwork for RISCV Toolchain
-Engage in hands-on labwork to solidify your understanding of the course concepts. This includes writing a C program to calculate the sum from 1 to n, compiling with RISCV GCC compiler, disassembling code, simulating with Spike, and grasping integer number representation.
+## <a name="course-structure"></a>Course Structure
+### <a name="day-1-introduction-to-riscv-isa-and-gnu-compiler-toolchain"></a>Day 1: Introduction to RISC-V ISA and GNU Compiler Toolchain
+- Learnt about Instruction Set Architecture (ISA) and its importance in CPU functionality.
+- Understood the RISC-V ISA, an open-source and customizable instruction set.
+- Explored various extensions in the RISC-V ISA, such as integer, floating-point, and atomic instructions.
+- Compiled and executed programs using both C compiler and RISC-V compiler.
 
-## Application Binary Interface (ABI)
-Learn about the Application Binary Interface (ABI), a set of rules that dictate how different software components interact with binary code. ABI covers function calls, parameter passing, memory allocation, and more.
+### <a name="day-2-introduction-to-abi-and-basic-verification-flow"></a>Day 2: Introduction to ABI and Basic Verification Flow
+- Dove into Application Binary Interface (ABI) and its role in software-hardware interaction.
+- Discovered the basics of verification flow and how it ensures proper design functionality.
+- Explored compressed instruction formats that optimize code size while maintaining functionality.
+- Learnt about supervisor-level instructions for managing system operations.
 
-## Memory Allocation for Double Words
-Understand the techniques for loading 64-bit numbers into memory using little-endian and big-endian representations.
+### <a name="day-3-introduction-to-verilog-rtl-design-and-synthesis"></a>Day 3: Introduction to Verilog RTL Design and Synthesis
+- Introduction to Verilog, a programming language used for designing and simulating digital systems.
+- Understanding key concepts like modules, ports, signals, combinational logic, sequential logic, clock, and edges.
+- Hands-on experience with GTKWave labs and an introduction to Yosys, an RTL synthesis framework for digital design.
 
-## Load, Add, and Store Instructions
-Master essential instructions for data manipulation using load, add, and store operations in assembly programming.
+### <a name="day-4-introduction-to-timing-labs"></a>Day 4: Introduction to Timing Labs
+- Exploring timing libraries and their significance in ASIC design.
+- Understanding hierarchical and flat synthesis.
+- Synthesizing flip-flops with various coding styles and optimizations.
 
-## 32 Registers and Their ABI Names
-Learn about the ABI names assigned to registers, their significance, and their role in software compatibility and communication.
+## Conclusion
+The aim of this course is to gain a solid understanding of the complete ASIC design flow, from programming in high-level languages to creating layout designs. 
 
-## Labwork using ABI Function Calls
-Put your knowledge into practice by implementing algorithms, simulating programs, and reviewing ASM function calls for effective code generation.
-
-## Algorithm for C Program using ASM
-Integrate assembly language code with C programs using inline assembly or separate files to optimize performance.
-
-## Simulation
-Compile code, execute object files using the Spike simulator, and engage in comprehensive testing and debugging to ensure the correctness of your programs.
-
-## PES_ASIC_CLASS Repository
-This repository provides resources for the ASIC design course. You'll find course content, labwork examples, and solutions to common errors. The repository guides you through the flow from high-level languages to hardware implementation and layout.
+---
