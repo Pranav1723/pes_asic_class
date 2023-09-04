@@ -25,10 +25,10 @@ This script will set up the necessary tools and environment required for the cou
 
 ## Table of Contents
 
-  - [Day 1](./DAY1#day-1-introduction-to-riscv-isa-and-gnu-compiler-toolchain)
-  - [Day 2](./DAY2#day-2-introduction-to-abi-and-basic-verification-flow)
-  - [Day 3](./DAY3#day-3-introduction-to-verilog-rtl-design-and-synthesis)
-  - [Day 4](./DAY4#day-4-introduction-to-timing-labs)
+  - [Day 1](./DAY_1#day-1-introduction-to-riscv-isa-and-gnu-compiler-toolchain)
+  - [Day 2](./DAY_2#day-2-introduction-to-abi-and-basic-verification-flow)
+  - [Day 3](./DAY_3#day-3-introduction-to-verilog-rtl-design-and-synthesis)
+  - [Day 4](./DAY_4#day-4-introduction-to-timing-labs)
 
 ## Instruction Set Architecture (ISA)
 The Instruction Set Architecture (ISA) defines how a computer's hardware and software interact. The RISC-V ISA, an open-source ISA, is a key focus in this course. RISC-V architectures provide a streamlined instruction set that can lead to faster execution.
